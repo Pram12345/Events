@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Event</title>
+</head>
+
+<!-- <body ng-app="" > -->
+    <!-- <script src="https://code.angularjs.org/1.6.9/angular.min.js"></script>
+   
+    <h1>ADIT DDN EVENT</h1>
+
+    <button ng-click="count=count + 1" ng-init="count=0">
+        increment
+    </button>
+
+
+  <div>Number of count is: {{count}}</div>   -->
+
+
+
+
+
+
+
+
+
+<body>
+
+    <!-- <div ng-app ="myapp" ng-countroller="myCtrl">
+        <h1 ng-mousemove="count=count + 1"></h1> move yyo mose
+    <h2>{{count}}</h2>
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope){
+            $scope.count = 0
+        })
+    </script>
+    </div>
+ -->
+
+
+
+ <script src="https://code.angularjs.org/1.6.9/angular.min.js"></script>
+ <body>
+    <div ng-app="myapp" ng-controller="myCtrl">
+        <h1 ng-mousemove="count=count + 1">Move your mouse</h1>
+        <h2>{{count}}</h2>
+        <script>
+            var app = angular.module('myapp', []);  // corrected module name to 'myapp'
+            app.controller('myCtrl', function($scope) {
+                $scope.count = 0;
+            });
+        </script>
+    </div>
+</body>
+
+
+</body>
+</html>
